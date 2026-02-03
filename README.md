@@ -83,28 +83,32 @@ Open a terminal and run:
 
 ```bash
 pip install requests beautifulsoup4
+```
 
 ### 3. Download the scraper
 Save the script as:
 
 ```
 fi_banks.py
+```
 
 ### 4. Run the scraper
 Generate the interactive HTML index:
 
 ```bash
 python fi_banks.py --html
+```
 
 Or print results to the console:
 
 ```bash
 python fi_banks.py
+```
 
 ---
 
 ## 🧭 How the Scraper Works
-
+```
 ┌──────────────────────────────────────────────┐
 │ 1. Load FI main list pages (BANK/MBANK/SPAR) │
 └───────────────┬──────────────────────────────┘
@@ -148,6 +152,7 @@ python fi_banks.py
 │    - Color-coded categories                  │
 │    - Expandable authorizations               │
 └──────────────────────────────────────────────┘
+```
 
 This creates a **local mirror** of FI’s bank registry that is:
 
